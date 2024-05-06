@@ -1,13 +1,15 @@
-
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+import SearchBar from "./components/SearchBar";
 
 function App() {
-
 
   return (
     <>
       <div>
-        <h1 className="text-blue-500 text-2xl font-semibold">Quick Job Finder</h1>
-        <p>Empowering your career journey.</p>
+        <Navbar/>
+        <Header />
+        <SearchBar />
       </div>
     </>
   )
