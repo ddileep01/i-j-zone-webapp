@@ -43,7 +43,7 @@ function SearchBar() {
             <option value="DevOps Engineer">DevOps Engineer</option>
             <option value="UIUX Designer">UIUX Designer</option>
         </select>
-        <button className='w-64 bg-blue-500 hover:bg-blue-600 text-white py-3 rounded-md'>Search</button>
+        <button className='w-64 bg-blue-500 hover:bg-blue-600 text-white py-3 rounded-md px-2'>Search</button>
     </div>
   )
 }

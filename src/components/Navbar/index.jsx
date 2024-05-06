@@ -3,9 +3,7 @@ import React from "react";
 function Navbar() {
   return (
     <div className="flex w-full items-center h-20">
-      <h1 className="text-blue-500 font-bold text-3xl pl-8 md:pl-20">
-        I&J ZONE.
-      </h1>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Service_mark.svg/2560px-Service_mark.svg.png" className="w-32 ml-8 md:ml-20"/>
     </div>
   );
 }
