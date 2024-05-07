@@ -3,8 +3,8 @@ import React from 'react'
 
 function JobCard() {
     const skills = ["javascript", "React", "Node JS"];
-    const date1 = dayjs(Date.now());
-    const diffInDays = date1.diff('2024-04-25', 'day')
+    const currentDate = dayjs(Date.now());
+    const diffInDays = currentDate.diff('2024-04-25', 'day')
   return (
     <div className="mx-40 mb-40">
         <div className="bg-blue-500 text-white flex justify-between items-center px-6 py-4 rounded-md border-2 border-blue-500 hover:translate-y-1 hover:scale-103">
