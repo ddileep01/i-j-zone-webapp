@@ -3,10 +3,10 @@ import React from 'react'
 function Header() {
   return (
     <div className="flex flex-col items-center">
-      <h1 className="text-blue-500 font-semibold text-2xl">
+      <h1 className="text-[#F0B523] font-semibold text-2xl">
         Internships & Jobs Zone
       </h1>
-      <p>Empowering your career journey.</p>
+      <p className='text-white'>Empowering your career journey.</p>
     </div>
   )
 }
